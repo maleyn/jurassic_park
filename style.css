@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container {
+    max-width:1200px;
+    width:100%;
+    margin:0 auto; 
+    background: rgb(219, 219, 219);
+}
+body {
+font-family: monospace;
+background-color: rgb(196, 196, 196);
+z-index: 0;
+}
+
+header {
+    
+    margin-left: 10px;
+    position: sticky;
+    top: 10px;
+    z-index: 50000;
+    width: 170px;
+    background-color: rgba(54, 54, 54, 0.527);
+    padding-bottom: 20px;
+    padding-left: 10px;
+    border-radius: 5px 5px;
+    color: white;
+}
+
+header #money{
+    margin-top: 20px;
+    font-size: 1.2rem;
+}
+
+header #name{
+    margin-top: 20px;
+    font-size: 1.2rem;
+}
+
+header button {
+padding: 10px;
+}
+header .infosplayer {
+    z-index: 5000;
+}
+
+h1 {
+    width: 300px;
+    margin-bottom: 40px;
+    margin-left: 50px;
+    padding-top: 50px;
+}
+
+#contenu {
+    position: relative;
+    bottom: 50px;
+}
+#contenu #ui {
+    justify-content: center;
+    flex-wrap: wrap;
+}
+#contenu #ui .statcombat{
+    color: rgb(0, 22, 150);
+}
+
+#contenu #ui .prix{
+    position: relative;
+    left: 40%;
+    font-weight: bold;
+    color: rgb(34, 136, 73);
+}
+
+#contenu #ui .cards {
+    width: 250px;
+    padding: 15px;
+
+}
+
+#contenu #ui img {
+    height: 200px;
+}
+
+#contenu #ui p {
+     margin-top: 10px;
+    text-align: justify;
+    width: 100%;
+}
+#contenu #ui button {
+    position: relative;
+    padding: 5px;
+}
+
+.display_off_card {
+    display: none;
+}
+
+.display_off_money {
+    display: none;
+}
+
+.display_off_name {
+    display: none;
+}
+
+.display_on {
+    display: flex;
+}
