@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Jurassic Park</title>
+    <title>Jurassic Parc</title>
     <script type="text/javascript" src="scripts.js"></script>
     <link rel="stylesheet" href="style.css">
     
@@ -48,7 +48,7 @@ $parc->createDino(new Stegosaurus('Conrad'));
 </header>
 <main id="contenu" class="container">
 <Div>
-<h1>Jurassic Park</h1>
+<h1>Jurassic Parc</h1>
 
 </Div>
 <div id="ui" class="display_off_card">
